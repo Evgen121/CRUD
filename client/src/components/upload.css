@@ -1,0 +1,83 @@
+.row {
+    width: 550px;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row button.add {
+    border-color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 470px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.row button.add:hover {
+    color: transparent;
+    border: 3px solid red;
+}
+
+.row button.submit {
+    border-color: black;
+    border: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.row button.submit:hover {
+    color: brown;
+    font-weight: 800;
+    transition: none;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+input {
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+
+.uploadImage {
+    width: 350px;
+    filter: drop-shadow(0 0 20px rgb(219, 170, 9));
+}
+
+.loading {
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.rowApp {
+
+    margin: 0 auto;
+
+
+}
